@@ -1,0 +1,362 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #e1e1e0;
+}
+
+header{
+    background-image: url(./Photos/mainBackground.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Photos/mainBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+    color: white;
+}
+
+header .nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-bottom-width:1px white;
+    padding: 25px 0;
+
+}
+header .nav-bar .left-section img{
+    scale: 0.7;
+}
+header .nav-bar .right-section ul{
+    display: flex;
+    justify-content: space-around;
+    
+} 
+header .nav-bar .right-section ul li {
+    margin: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.heading h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom:30px ;
+}
+.heading{
+    position: relative;
+    top: 5rem;
+    left: 8rem;
+}
+
+.heading p{
+    font-size: 20px;
+    padding:15px ;
+}
+.heading button {
+    background-color: #6663e9;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+/* logo section design */
+.my-logos{
+    /* width: 100%; */
+    display: flex;
+    padding: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 35px;
+    border-radius:3rem ;
+    position: relative;
+    top: -5rem;
+    background-color: #e1e1e0;
+}
+
+/* section for displaying all our real state properties in a card  */
+
+.cards-wrapper-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 40px; */
+}
+.cards-wrapper-section h1{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    padding-bottom: 10px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* margin-bottom: 40px; */
+   
+}
+.card{
+    margin-bottom:0px ;
+}
+.card img{
+    height: 400px;
+    width: 400px;
+     border-radius: 25px;
+}
+
+.card-box{
+    display: flex;
+    background-color: #fff;
+    width: 350px;
+    margin-left: 25px;
+    justify-content: space-around;
+    /* width: 200px; */
+    align-items: center;
+    height: 100px;
+    border-radius:20px ;
+    position: relative;
+    top: -80px;
+    z-index:2;
+}
+.card-box h3 , p{
+    font-size: 25px;
+}
+.card button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #6663e9;
+    border: none;
+    font-size: 20px;
+}
+.cards-wrapper div:nth-child(2) {
+  margin-top: 50px;
+}
+.cards-wrapper div:nth-child(3) {
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(4) {
+  margin-top: 160px;
+}
+.cards-wrapper div:nth-child(5) {
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(6) {
+  margin-top: 40px;
+}
+.cards-wrapper div:nth-child(7) {
+  margin-top: 40px;
+}
+.cards-wrapper div:nth-child(8) {
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(9) {
+  margin-top: 160px;
+}
+
+/*desinging section for displaying first feature  */
+
+
+.first-fearture-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: auto;
+
+}
+.first-fearture-section img[alt="featuresImage1"]{
+
+    height: 400px;
+    width: 350px;
+    border-radius: 35px;
+    position: relative;
+    left: 98px;
+}
+.first-fearture-section img[alt="featureImageBg1"] {
+    height: 400px;
+    position: relative;
+    top: -40vh;
+    z-index: -1;
+}
+.content-section h1{
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 21px;
+    margin-top: 50px;
+}
+.content-section p{
+    padding: 21px;
+}
+.content-section{
+    width: 50%;
+}
+.content-section button{
+    width: 180px;
+    padding: 10px;
+    background-color: #6663e9;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+    color: #fff;
+    margin-left: 25px;
+}
+/*desing second-fearture-section */
+.second-fearture-section{
+    display: flex;
+    justify-content: center;
+    /* padding: 30px; */
+    
+}
+
+.second-fearture-section{
+    position: relative;
+    top: -50vh;
+    
+}
+.second-content-section h1{
+    font-size: 55px;
+    margin-left: 35px;
+    font-weight: bolder;
+    margin-top: 150px;
+}
+.second-content-section p{
+    font-size: 25px;
+    margin-left: 35px;
+    
+}
+.second-content-section button{
+    font-size: 25px;
+    padding: 10px;
+    margin: 15px;
+    margin-left:35px;
+    border: none;
+    border-radius:25px ;
+    background-color: #6663e9;
+    color: #fff;
+}
+.second-img-section{
+    width: 50%;
+}
+.second-img-section img[alt="featuresImage2"]{
+    height: 400px;
+    width: 360px;
+    position: relative;
+    top: 10vh;
+    left:10.6vw;
+    z-index: 1 ;
+    border-radius: 25px;
+}
+.second-img-section img[alt="featureImageBg2"]{
+    height: 500px;
+    width: 650px;
+    position: relative;
+    top: -20rem;
+}
+/* desing newsletter */
+
+.newsletter{
+    height: 500px;
+    width: 80vw;
+    margin-left: 10rem;
+    background-color: #6663e9;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 35px;
+    position: relative;
+    top: -70vh;
+}
+.newsletter h1{
+    font-size: 60px;
+}
+
+.newsletter p{
+    font-size: 18px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+}
+.newsletter form{
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsletter form div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+}
+
+.newsletter form input {
+    background-color: transparent;
+    border: none;
+}
+
+.newsletter form button{
+    width: 120px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 15px;
+    color: #6663e9;
+    font-weight: 800;
+}
+
+/* footer area */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    position: relative;
+    top: -40vh;
+    gap: 40px;
+}
+.footer-link-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    
+}
+.footer-link ul li{
+    list-style: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: larger;
+}
+.footer-link ul li:first-child{
+    font-weight: bolder;
+}
+.social{
+    padding: 20px;
+    margin-top: 20px;
+}
+.social img[alt="logo"] , .social div img{
+    margin: 25px;
+    padding-top:px ;
+    padding-bottom: 50px;
+}
